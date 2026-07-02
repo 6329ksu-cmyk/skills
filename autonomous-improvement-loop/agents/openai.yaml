@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autonomous Improvement Loop"
+  short_description: "Long autonomous improvement cycles"
+  default_prompt: "Use $autonomous-improvement-loop to take a long autonomous pass over this project or idea, improve it, validate it, and brief me."

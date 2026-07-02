@@ -1,0 +1,4 @@
+interface:
+  display_name: "Judgment-Driven Autopilot"
+  short_description: "Autonomous work loop with sharp judgment"
+  default_prompt: "Use $judgment-driven-autopilot to run one autonomous improvement cycle and brief the result."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self-Steering Cycle"
+  short_description: "Autonomous loop for terse steering"
+  default_prompt: "Use $self-steering-cycle to turn my short feedback into one autonomous improve-verify-brief cycle."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Critical Autopilot"
+  short_description: "Autonomous critical improvement loop"
+  default_prompt: "Use $critical-autopilot to infer the goal, run a critical improvement pass, fix safe issues, verify evidence, and brief me concisely."
