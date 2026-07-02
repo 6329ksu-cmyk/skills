@@ -1,4 +1,6 @@
 interface:
   display_name: "Self-Steering Cycle"
-  short_description: "Autonomous loop for terse steering"
-  default_prompt: "Use $self-steering-cycle to turn my short feedback into one autonomous improve-verify-brief cycle."
+  short_description: "Alias for Critical Autopilot"
+  default_prompt: "Use $self-steering-cycle as a compatibility alias for $critical-autopilot to turn my short feedback into one autonomous improve-verify-brief cycle."
+policy:
+  allow_implicit_invocation: false

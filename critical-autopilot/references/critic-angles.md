@@ -4,6 +4,7 @@ Use these as independent lenses. Spawn subagents only when the user explicitly a
 
 ## Minimal Critical Panel
 
+- **Product truth:** Does the artifact match the user's actual goal, or only a convenient substitute?
 - **Readiness and truthfulness:** Does the artifact claim readiness without real data, real tests, or usable runtime state?
 - **User experience:** Can a tired operator understand the state, failure reason, and next action without reading logs?
 - **Security and privacy:** Are auth boundaries, secrets, logs, generated answers, exports, and source links safe by default?
@@ -13,7 +14,15 @@ Use these as independent lenses. Spawn subagents only when the user explicitly a
 - **Data quality:** Are empty indexes, stale caches, duplicate sources, partial migrations, or malformed documents visible and handled honestly?
 - **Product judgment:** Does the work match the user's stated taste: autonomous, practical, concise, and final-evaluator oriented?
 - **Cost and dependency:** Are paid calls, network services, model choices, background jobs, and time-heavy operations explicit and bounded?
+- **Accessibility and readability:** Do keyboard use, screen readers, reduced motion, contrast, text fit, and layout survive changes?
+- **Legal and source risk:** Are external assets, text, screenshots, licenses, and citations safely separated?
+- **Taste and coherence:** Is it merely different, or actually useful, coherent, and domain-fit?
+- **Skeptical final auditor:** What claim is still too strong?
 
 ## Synthesis Rule
 
 Do not average the panel into vague consensus. Keep any P0/P1 issue that one credible lens finds unless direct evidence disproves it. Prefer a small patch plus verification over a long unresolved risk list.
+
+## Subagent Hygiene
+
+Use subagents only when permitted and useful for independent passes. Give each subagent a bounded role and ask for concrete blockers, fixes, and verification gates. If subagent parallelism fails, say so and run the lenses sequentially or locally without pretending parallel debate occurred.

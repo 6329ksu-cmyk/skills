@@ -27,6 +27,28 @@ Use when interrupted or asked "브리핑":
 다음 행동: ...
 ```
 
+## Frustrated User
+
+Lead with the concrete correction, not process:
+
+```
+Short answer: ...
+Actually verified: ...
+Still not true / still blocked: ...
+Next move: ...
+```
+
+## Skill Work
+
+When the artifact is a skill, include only:
+
+- skill name and location
+- core philosophy change
+- files changed
+- validators run
+- recursive self-audit improvement
+- remaining evolution backlog
+
 ## Avoid
 
 - Full directory inventories.

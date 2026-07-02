@@ -1,4 +1,6 @@
 interface:
   display_name: "Autonomous Improvement Loop"
-  short_description: "Long autonomous improvement cycles"
-  default_prompt: "Use $autonomous-improvement-loop to take a long autonomous pass over this project or idea, improve it, validate it, and brief me."
+  short_description: "Alias for Critical Autopilot"
+  default_prompt: "Use $autonomous-improvement-loop as a compatibility alias for $critical-autopilot to take a long autonomous pass, improve it, validate it, and brief me."
+policy:
+  allow_implicit_invocation: false
